@@ -1,0 +1,47 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/raw/
+
+# Outputs (keep folder, ignore generated files)
+outputs/sample_reports/*.md
+outputs/sample_reports/*.txt
+outputs/sample_reports/*.json
+
+# Assets
+assets/screenshots/*.png
+assets/screenshots/*.jpg
+
+# IDE
+.vscode/
+.idea/
+
+# Local session context and Claude Code planning docs (not for version control)
+CONTEXT.md
+TASKS.md
+PROJECT_PLAN.md
