@@ -27,6 +27,7 @@ Thumbs.db
 
 # Data
 data/raw/
+data/sample_datasets/census_income.csv
 
 # Outputs (keep folder, ignore generated files)
 outputs/sample_reports/*.md
